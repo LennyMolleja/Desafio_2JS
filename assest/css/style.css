@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Arial Narrow', Arial;
+}
+
+#familia{
+    margin: 15px;
+    width: 500px;
+    height: 350px;
+}
+
+.container_1, .selecciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.container_1, .container_2, .container_3{
+    border: solid 3px black;
+    margin: 2px;
+}
+
+
+.simpsons{
+    width: 200px;
+    height: 220px;
+    border: solid 1px black;
+    margin: 10px 10px 4px 10px;
+}
+
+input{
+    margin: 0px 14px;
+    text-align: center;
+    font-size: large;
+    border: none;
+    background-color: rgb(237, 173, 173);
+    border-radius: 5px;
+}
+
+.cantidad, .btn, .boton, .password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn, #btn_1{
+    margin: 15px 0px;
+    background-color: brown;
+    border: none;
+    font-size: large;
+    color: black;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#text, .text, .ingreso, #text_1{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    margin-top: 10px;
+}
+
+select{
+    background-color: rgb(245, 174, 174);
+    border: none;
+    font-size: x-large;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
